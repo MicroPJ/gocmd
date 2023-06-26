@@ -1,6 +1,6 @@
 # gocmd
 
-## Use this template to get up and running quickly
+Use this template to get up and running quickly
 
 Usage:
   gocmd [flags]
