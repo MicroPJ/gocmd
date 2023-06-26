@@ -15,7 +15,9 @@ var rootCmd = &cobra.Command{
 		//fmt.Printf("Inside rootCmd PreRun with args: %v\n", args)
 	},
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Printf("Run 'gocmd -h' for help on any command\n")
+		if len(args) == 0 {
+			fmt.Printf("Run 'gocmd -h' for help on any command")
+		}
 	},
 }
 
