@@ -1,13 +1,6 @@
 # gocmd
 
-   ____    ___     ____   __  __   ____
-  / ___|  / _ \   / ___| |  \/  | |  _ \
- | |  _  | | | | | |     | |\/| | | | | |
- | |_| | | |_| | | |___  | |  | | | |_| |
-  \____|  \___/   \____| |_|  |_| |____/
-
-
-Use this template to get up and running quickly
+## Use this template to get up and running quickly
 
 Usage:
   gocmd [flags]
