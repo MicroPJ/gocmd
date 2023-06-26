@@ -2,7 +2,6 @@ package gocmd
 
 import (
 	"fmt"
-	"os/exec"
 	"runtime"
 )
 
