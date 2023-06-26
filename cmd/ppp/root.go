@@ -1,4 +1,4 @@
-package ppp
+package gocmd
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "ppp",
-	Short: "ppp - Poor Persons Pipeline, a simple CLI to deploy BankDemo",
-	Long:  `One can use ppp to deploy BankDemo from the GitHub Public Repository`,
+	Use:   "gocmd",
+	Short: "gocmd - Poor Persons Pipeline, a simple CLI to deploy BankDemo",
+	Long:  `One can use gocmd to deploy BankDemo from the GitHub Public Repository`,
 	Run: func(cmd *cobra.Command, args []string) {
 
 	},

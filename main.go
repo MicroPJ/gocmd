@@ -1,7 +1,7 @@
 package main
 
-import "github.com/micropj/ppp/cmd/ppp"
+import "github.com/micropj/gocmd/cmd/gocmd"
 
 func main() {
-	ppp.Execute()
+	gocmd.Execute()
 }

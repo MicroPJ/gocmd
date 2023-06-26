@@ -1,4 +1,4 @@
-module github.com/micropj/ppp
+module github.com/micropj/gocmd
 
 go 1.20
 

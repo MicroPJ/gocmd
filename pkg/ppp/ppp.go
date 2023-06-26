@@ -1,4 +1,4 @@
-package ppp
+package gocmd
 
 import (
 	"fmt"
@@ -14,12 +14,12 @@ func Vsam(input string) (result string) {
 	fmt.Printf("*---\n Cloning BankDemo\n---*\n\n")
 	switch runtime.GOOS {
 	case "windows":
-		//cmd.Dir = "C:\\Users\\PJennings\\git\\ppp"
+		//cmd.Dir = "C:\\Users\\PJennings\\git\\gocmd"
 		var repo = "https://github.com/MicroFocus/BankDemo.git"
 		cmd = exec.Command("git", "clone", repo, "--progress")
 
 	default: //Mac & Linux
-		//cmd.Dir = "C:\\Users\\PJennings\\git\\ppp"
+		//cmd.Dir = "C:\\Users\\PJennings\\git\\gocmd"
 		var repo = "https://github.com/MicroFocus/BankDemo.git"
 		cmd = exec.Command("git", "clone", repo, "--progress")
 	}
