@@ -7,18 +7,18 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var vsamCmd = &cobra.Command{
-	Use:     "vsam",
-	Aliases: []string{"v"},
-	Short:   "Deploy BankDemo VSAM",
+var oneCmd = &cobra.Command{
+	Use:     "one",
+	Aliases: []string{"o"},
+	Short:   "Option one",
 	Args:    cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 
-		res := gocmd.Vsam(" ")
+		res := gocmd.One(" ")
 		fmt.Printf(res)
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(vsamCmd)
+	rootCmd.AddCommand(oneCmd)
 }

@@ -9,8 +9,8 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "gocmd",
-	Short: "gocmd - Poor Persons Pipeline, a simple CLI to deploy BankDemo",
-	Long:  `One can use gocmd to deploy BankDemo from the GitHub Public Repository`,
+	Short: "gocmd - Template GOLang project for CLI utilities",
+	Long:  `Use this template to get up and running quickly`,
 	Run: func(cmd *cobra.Command, args []string) {
 
 	},
